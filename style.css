@@ -1,0 +1,475 @@
+* {
+    background-color: #0C3C4D;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins'; 
+}
+
+.header {
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    z-index: 100;
+    position: absolute;
+
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'poppins';
+    margin-left: 100px;
+    font-weight: 500;
+    
+}
+.navbar  {
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    display: flex;
+}
+.header .logo img {
+    width: 150px;
+    height: fit-content;
+    cursor: pointer;
+}
+.header .icon .search {
+    height: 25px;
+    width: fit-content;
+    margin: 3px;
+    background-color:   transparent;
+}
+.icon   {
+    background-color: transparent;
+    display: flex;
+    cursor: pointer;
+    margin-top: 5px;
+    gap: 5px; 
+}
+.ig {
+    width: 32px;
+    height: 32px;
+    color: wheat;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.ig img {
+    width: 20px;
+    height: fit-content;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 5px;
+}
+.lingkaran {
+    width: 1200px;
+    height: 1200px;
+    background-color: #FFC800;
+    border-radius: 50%;
+    position: absolute;
+    top:  -60%;
+    left: 38%;
+    display: flex;
+    margin-right: -10px;
+
+}
+
+
+.tampilankendaraan {
+    justify-content: right;
+    display: flex;
+}
+.mobil {
+    background-color: transparent;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 200px;
+}
+
+
+.kotaksearch  {
+    justify-content: center;
+    display: flex;
+}
+
+.barsearch  input[placeholder="Cari Kendaraan"] {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+.teksdepan1 {
+    width: 30%;
+    margin-left: 40px;
+    justify-content: left;
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    top: 250px;
+}
+
+
+.teksdepan h2 {
+    font-family: 'poppins';
+    font-size: 20px;
+    color: #FFC800;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.teksdepan h1 {
+    font-family: 'poppins';
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+.teksdepan a {
+    font-family: 'poppins';
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.tombol {
+    height: 30px;
+    width: fit-content;
+    background-color: #7e6c2a;
+    padding: 5px 20px;
+    border-radius: 20px;
+    opacity: 1;
+    transition: 0.5ms;
+}
+.tombol:hover {
+    opacity: 0.6;
+
+}
+.tombol2 {
+    height: 30px;
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    transition: 0.5ms;
+}
+.tombol2:hover {
+    background-color: #b69c41   ;
+    
+
+}
+.kotak {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 1100px;
+}
+.webset {
+    height: 30px;
+    width: fit-content;
+    padding: 5px 20px;
+    background-color: #b69c41;
+    border-radius: 20px;
+    
+}
+.tipekendaraan {
+    width: 100%;
+    display: flex;
+    gap: 7%;
+    justify-content: center;
+    padding-top: 200px;
+}
+.kendaraan {
+    width:  350px;
+    height: 350px;
+    background-image: url(download\ \(5\).jpeg);
+    background-size: cover;
+    border-radius: 40px;
+    transition: 0.5s;
+    justify-content: center; 
+    text-decoration: none;   
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 1px 1px 5px #000000;
+}
+.kendaraan h1 {
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 165px;
+
+}
+.kendaraan:hover {
+    scale: 1.1;
+}
+.kendaraan1:hover {
+    scale: 1.1;
+}
+.kendaraan2:hover {
+    scale: 1.1;
+}
+.kendaraan1 {
+    width:  350px;
+    height: 350px;
+    background-image: url("kapal\ feri.jpeg");
+    background-size: cover;
+    border-radius: 40px;
+    transition: 0.5s;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 1px 1px 5px #000000;
+}
+.kendaraan1 h1 {
+    background-color: transparent;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 165px;
+    color: white;
+}
+
+.kendaraan2 {
+    width:  350px;
+    height: 350px;
+    background-image: url("pesawat.jpeg");
+    background-size: cover ;
+    border-radius: 40px;
+    transition: 0.5s;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 1px 1px 5px #000000;
+}
+.kendaraan2 h1 {
+    background-color: transparent;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 165px;
+    color: white;
+}
+
+.testimoni  {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 1030px;
+    width: 100%;
+}
+.testimoni h1  {
+    font-size: 20px
+}
+.kotakmerk {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    position: absolute;
+    height: 550px;
+    top: 1650px;
+}
+.barisan1 img {
+    width: 180px;
+    height: fit-content ;
+    background-color: white;
+    margin: 10px 30px;
+}
+.barisan1 {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.barisan2 img {
+    width: 180px;
+    height: fit-content ;
+    background-color: white;
+    margin: 10px 30px;
+}
+.barisan2 {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.semuabarisan  {
+    background-color: transparent;
+    text-align: center;
+}
+.semuabarisan  h1 {
+    background-color: transparent;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.list {
+    width: 85%;
+    height: 1000px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 200px;
+}
+.list h1{
+    background-color: transparent;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.adalist  {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.garis {
+    width: 80%;
+    height: 5px;
+    background-color: gray;
+    margin-left: 10%;
+}
+.alasan {
+    width: 100%;
+    position: absolute;
+    top: 2160px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 450px;
+}
+.alasan-teks h1{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+.alasan-atas {
+    display: flex;
+}
+.alasan-atas  img {
+    width: 70px;
+    height: fit-content;
+    margin: auto 1px;
+}
+.alasan-atas h1 {
+    margin: auto 7px;
+    color: white;
+    
+}
+.alasan-bawah h1{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+.alasan1 {
+    width: 25%;
+}
+.alasan-foto {
+    width: 1500px;
+    display: flex;
+    gap: 15%;
+    justify-content: center;
+}
+.back .back-div img {
+    width: 50px;
+    height: fit-content;
+    background-color: transparent;
+    margin: 5px auto;
+    display: flex;
+}
+.back-div {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%; 
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: +4;
+    transition: 0.5S;
+}
+.back-div:hover {
+    scale: 1.1;
+}
+
+.barsearch-vehicle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 12%;
+    background-color: transparent;
+    z-index: +2;
+}   
+.barsearch-vehicle input {
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+}
+.barsearch-vehicle input[placeholder="Cari Kendaraan"]{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.darat-vehicle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    background-color: transparent;
+    top: 200px;
+}
+.darat-isi  {
+    width:  80%;
+    height: fit-content;
+    display: flex;
+    gap: 40px;
+    background-color: transparent;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.darat-mobil {
+    width: 300px;
+    height: 260px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 30px;
+    transition: 0.77s;
+}
+.darat-mobil-isi {
+    margin: 5px;
+    background-color: transparent;
+    width: 290px;
+    height: 250px;
+    box-shadow: 1px 1px 4px black;
+    border-radius: 30px;
+}
+.darat-mobil-isi img {
+    width: 290px;
+    height: 180px;
+    border-radius: 30px;
+    background-color: transparent;
+
+    position: relative;
+}
+.darat-mobil-isi h1 {
+    color: black;
+    background-color: transparent;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.darat-mobil:hover {
+    scale: 1.11;
+}

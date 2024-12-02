@@ -1,0 +1,27 @@
+* {
+    background-color: #55698E;
+    height: 1024px;
+    width: 1440px;
+    margin: 0;
+}
+.header img {
+    height: fit-content;
+    width: 160px;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+}
+.header a {
+    list-style: none;
+    color: white;
+    padding-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-left: 300px;
+}
+.header {
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+
+}
